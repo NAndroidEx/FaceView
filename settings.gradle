@@ -1,0 +1,3 @@
+rootProject.name='FaceView Demo'
+include ':app'
+include ':faceview'
