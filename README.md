@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/niraj-prajapati/FaceView.svg)](https://jitpack.io/#niraj-prajapati/FaceView)
+
 <!-- wp:group -->
 <div class="wp-block-group"><div class="wp-block-group__inner-container"><!-- wp:html -->
 <h2>Introduction</h2>
@@ -43,11 +45,12 @@
 
 <!-- wp:paragraph -->
 <p>Add the dependency</p>
+
 <!-- /wp:paragraph -->
 
 <!-- wp:syntaxhighlighter/code -->
 <pre class="wp-block-syntaxhighlighter-code">dependencies {
-    implementation 'com.github.NAndroidEx:FaceView:1.0.0'
+    implementation 'com.github.niraj-prajapati:FaceView:1.1.0'
 }</pre>
 <!-- /wp:syntaxhighlighter/code -->
 
@@ -61,6 +64,17 @@
 
 <!-- wp:syntaxhighlighter/code -->
 <pre class="wp-block-syntaxhighlighter-code">&lt;com.nandroidex.faceview.FaceView
+    android:id="@+id/fvFace"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" /></pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:syntaxhighlighter/code -->
+<pre class="wp-block-syntaxhighlighter-code">&lt;com.nandroidex.faceview.CircularFaceView
     android:id="@+id/fvFace"
     android:layout_width="150dp"
     android:layout_height="150dp"
